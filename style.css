@@ -1,0 +1,28 @@
+.bg-youngBlue {
+    background-color:navy;
+    color: white;
+}
+
+.navleft {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .header {
+    
+} */
+
+@media (max-width: 500px) {
+    #navbarNavDropdown {
+        justify-content: flex-start;
+    }
+
+    .form-size {
+        position: relative;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+}
