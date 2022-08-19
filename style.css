@@ -1,5 +1,5 @@
 .bg-youngBlue {
-    background-color:navy;
+    background-color:#221B8D;
     color: white;
 }
 
@@ -8,9 +8,9 @@
     justify-content: flex-end;
 }
 
-/* .header {
-    
-} */
+header nav img {
+    width: 150px;
+}
 
 @media (max-width: 500px) {
     #navbarNavDropdown {
@@ -25,4 +25,16 @@
         margin-bottom: 5px;
         width: 100%;
     }
+}
+
+header nav form .btn-primary{
+    color: #fff;
+    background-color: #E2232B;
+    border-color: #E2232B;
+}
+
+header nav form .btn-primary:hover{
+    color: #fff;
+    background-color: #ce1f28;
+    border-color: #ce1f28;
 }
