@@ -48,3 +48,12 @@ main .informasi h1{
 main .informasi {
     font-size: 20px;
 }
+
+.informasi .row{
+    padding: 12px 0px 24px 0px;
+}
+
+.informasi .container-btn{
+    text-align: right;
+    margin-left: 20px;
+}
