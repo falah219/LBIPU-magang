@@ -12,7 +12,26 @@ header nav img {
     width: 150px;
 }
 
+@media (max-width: 500px) {
+    #navbarNavDropdown {
+        justify-content: flex-start;
+    }
 
+    .form-size {
+        position: relative;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .informasi .container-btn{
+        text-align: center;
+        margin-left: 20px;
+        width: 100%;
+    }
+}
 
 header nav form .btn-primary{
     color: #fff;
@@ -27,41 +46,25 @@ header nav form .btn-primary:hover{
 }
 
 main .informasi h1{
-    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
     color: #221B8D;
-    text-align: center;
+    margin: 52px 0px 42px 0px;
 }
 
 main .informasi {
     font-size: 20px;
 }
 
-.informasi .row2{
-    margin-top: 5% ;
+.informasi .row .col{
+    padding-bottom: 28px;
 }
 
-section {
-    margin-top : 5%;
+.informasi .container-btn{
+    text-align: center;
+    margin-left: 20px;
 }
 
-
-@media (max-width: 500px) {
-    #navbarNavDropdown {
-        justify-content: flex-start;
-        margin-bottom: 3%;
-    }
-
-    .form-size {
-        position: relative;
-        margin-top: 5px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 5px;
-        width: 100%;
-    }
-
-    .informasi .row2{
-        margin-top: 5%;
-        margin-left: 10%;
-    }
+.informasi .card-body .card-text{
+    text-align: left;
 }
