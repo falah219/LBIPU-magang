@@ -1,3 +1,10 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #221B8D;
+    padding: 52px 0px 42px 0px;
+}
+
 .bg-youngBlue {
     background-color:#221B8D;
     color: white;
@@ -45,13 +52,6 @@ header nav form .btn-primary:hover{
     border-color: #ce1f28;
 }
 
-main .informasi h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    color: #221B8D;
-    margin: 52px 0px 42px 0px;
-}
-
 main .informasi {
     font-size: 20px;
 }
@@ -67,4 +67,49 @@ main .informasi {
 
 .informasi .card-body .card-text{
     text-align: left;
+}
+
+.pelayanan{
+    background-color: rgb(235, 240, 250);
+}
+
+.pelayanan .row{
+    margin-bottom: 30px;
+}
+
+.pelayanan .description{
+    text-align: left;
+}
+
+.pelayanan .text-description{
+    text-align: left;
+}
+
+.pelayanan .text-description h3{
+    font-size: 28px;
+    color: #000;
+    font-weight: normal;
+}
+
+.pelayanan .text-description a{
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 6px 40px 6px 40px;
+    background-color: #E2232B;
+    border-color: #E2232B;
+}
+
+.pelayanan .text-description a:hover{
+    font-size: 16px;
+    padding: 6px 40px 6px 40px;
+    background-color: #ce1f28;
+    border-color: #ce1f28;
+}
+
+.pelayanan .pelayanan-image{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 50%;
 }
