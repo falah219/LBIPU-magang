@@ -78,6 +78,10 @@ main .informasi {
     background-color: rgb(235, 240, 250);
 }
 
+.pelayanan h1{
+    color: #E2232B;
+}
+
 .pelayanan .row{
     margin-bottom: 50px;
 }
@@ -93,7 +97,7 @@ main .informasi {
 .pelayanan h3{
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
-    color: rgb(75, 75, 75);
+    color: #221B8D;
     font-weight: normal;
     letter-spacing: 1.1px;
 }
@@ -102,15 +106,15 @@ main .informasi {
     font-size: 16px;
     margin-top: 10px;
     padding: 4px 30px 4px 30px;
-    background-color: #221B8D;
-    border-color: #221B8D;
+    background-color: #E2232B;
+    border-color: #E2232B;
 }
 
 .pelayanan .text-description a:hover{
     font-size: 16px;
     padding: 4px 30px 4px 30px;
-    background-color: #2f24c2;
-    border-color: #2f24c2;
+    background-color: #ce1f28;
+    border-color: #ce1f28;
 }
 
 .pelayanan .pelayanan-image{
@@ -219,4 +223,13 @@ main .kalendarAkademik {
 
 .program .card{
     height: 170px;
+}
+
+/* galeri */
+.galeri h1{
+    text-align: center;
+}
+
+.galeri h2{
+    font-size: 24px;
 }
